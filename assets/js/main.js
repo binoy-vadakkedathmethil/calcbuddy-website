@@ -99,6 +99,10 @@ $(function() {
         mobile: false, // 
     })
     wow.init();
+
+    //===== Set current year in footer
+    var currentYear = new Date().getFullYear();
+    $('.copyright-year').text(currentYear);
     
     
     
