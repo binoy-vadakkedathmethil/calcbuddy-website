@@ -2864,4 +2864,7 @@ footer.footer_area {
   padding: 14px 18px;
   border-radius: 8px;
   margin: 20px 0;
+  >a{
+    padding-left: 4px;
+  }
 }
